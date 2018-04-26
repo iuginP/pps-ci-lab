@@ -7,6 +7,7 @@ apply plugin: 'java'
 apply plugin: 'scala'
 apply plugin: 'org.scoverage'
 apply plugin: 'com.github.maiflai.scalatest'
+apply plugin: 'groovy'
 
 repositories {
 	mavenCentral()
@@ -14,6 +15,7 @@ repositories {
 
 dependencies {
 	compile 'org.scala-lang:scala-library:2.12.2'
+	compile 'org.codehaus.groovy:groovy:2.3.7'
 	testCompile 'org.scalatest:scalatest_2.12:3.0.1'
 	testCompile 'org.scalamock:scalamock-scalatest-support_2.12:3.5.0'
 	testRuntime 'org.pegdown:pegdown:1.4.2'
