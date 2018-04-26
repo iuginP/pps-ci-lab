@@ -8,6 +8,7 @@ apply plugin: 'scala'
 apply plugin: 'org.scoverage'
 apply plugin: 'com.github.maiflai.scalatest'
 apply plugin: 'groovy'
+apply plugin: 'pmd'
 
 repositories {
 	mavenCentral()
